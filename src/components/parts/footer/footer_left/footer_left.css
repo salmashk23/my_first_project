@@ -1,0 +1,17 @@
+#subtitle{
+    color: PaleTurquoise;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+
+}
+#icon{
+    font-size: 25px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#icon li {
+    float: left;
+    margin-right: 5px;
+
+  }
