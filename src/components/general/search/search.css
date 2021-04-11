@@ -1,7 +1,6 @@
 .form-inline {
   display: inline-block;
   flex-flow: row wrap;
-
 }
 
 /* Style the input fields */
@@ -18,13 +17,13 @@
 /* Style the submit button */
 .form-inline button {
   padding: 5px 10px;
-  background-color: black;
   border: 1px solid #ddd;
+  border-radius: 3px;
   color: white;
 }
 
 .form-inline button:hover {
-  background-color: gray;
+  background-color: #DADFE6;
 }
 
 /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */

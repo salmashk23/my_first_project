@@ -1,10 +1,12 @@
 import React from 'react';
-import Carousel from 'nuka-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 import CarouselItems from "./carousel_items.js";
 import "./carousel.css";
 
-function DemoCarousel()
-{
+
+class DemoCarousel extends React.Component{
+    render(){
     return(
         <div>
             <h3 id="note" className="text-center">
@@ -15,18 +17,20 @@ function DemoCarousel()
                     <a href="#" class="text-info"> Join us </a>
                 </p>
             </h3>
-            <Carousel autoplay={true} autoPlayInterval="2000" >
+            <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showThumbs={false}>
                 {
-                    CarouselItems.map((item, index) => {
+                    CarouselItems.map((item => {
                         return(
-                            <img key={index} src={item.image}  className="sliderimg " alt={item.alt}/>
-                            )
-                        }
+                            <img src={item.image}  className="sliderimg" alt={item.alt}/>
+                                )
+                            }
+                        )
                     )
                 }
             </Carousel>
         </div>
     );
+}
 }
 
 export default DemoCarousel;

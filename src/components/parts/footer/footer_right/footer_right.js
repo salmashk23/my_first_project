@@ -8,7 +8,7 @@ class FooterRight extends React.Component {
     render() {
         return (
                 <MDBCol md="4" className="text-center">
-                  <h5 className="title" id="contact"> <a href="#!"> COMTACT US </a> </h5>
+                  <h5 className="title" id="contact"> <a href="/contact_us"> COMTACT US </a> </h5>
                   <p class="mb-0">
                       <i class="fa fa-phone mr-3"></i>
                       052-666-5000

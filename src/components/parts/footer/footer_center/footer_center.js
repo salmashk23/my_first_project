@@ -11,22 +11,22 @@ class FooterCenter extends React.Component {
                   <h5 id="link-menu" className="title">Menu</h5>
                   <ul id="footerLinks">
                     <li className="list-unstyled">
-                      <a href="#!">HOME</a>
+                      <a href="/">HOME</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#!">ABOUT US</a>
+                      <a href="/about">ABOUT US</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#!">DIET PROGRAMS</a>
+                      <a href="/diet_programs">DIET PROGRAMS</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#!">FITNESS PROGRAMS</a>
+                      <a href="/fitness_programs">FITNESS PROGRAMS</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#!">ARTICLES</a>
+                      <a href="/articales">ARTICLES</a>
                     </li>
                     <li className="list-unstyled">
-                      <a href="#!">JOIN US</a>
+                      <a href="/register_page">JOIN US</a>
                     </li>
                   </ul>
                 </MDBCol>

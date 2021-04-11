@@ -1,40 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Modal, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import Modal  from "react-modal";
+import {Button , ModalHeader, ModalBody, ModalFooter} from "reactstrap";
+import BmiCalc from "./bmi_calc.js";
+import "./try.css"
 
-class Try extends React.Component {
-  state = {
-    isOpen: false
-  };
+Modal.setAppElement("#root");
 
-  openModal = () => this.setState({ isOpen: true });
-  closeModal = () => this.setState({ isOpen: false });
+export default function Try() {
+  const [isOpen, setIsOpen] = useState(false);
 
-  render() {
-    return (
-      <>
-        <div
-          className="d-flex align-items-center justify-content-center"
-          style={{ height: "100vh" }}
-        >
-          <Button variant="primary" onClick={this.openModal}>
-            Launch demo modal
-          </Button>
-        </div>
-        <Modal show={this.state.isOpen} onHide={this.closeModal}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.closeModal}>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
-      </>
-    );
+  function toggleModal() {
+    setIsOpen(!isOpen);
   }
-}
 
-export default Try;
+  return (
+    <div className="try">
+      <Button onClick={toggleModal} >Try It</Button>
+
+      <Modal
+        isOpen={isOpen}
+        onRequestClose={toggleModal}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+      >
+        <ModalHeader>
+            <h3 className="text-center"> BMI Calculator </h3>
+        </ModalHeader>
+        <ModalBody>
+            <BmiCalc/>
+        </ModalBody>
+        <Button onClick={toggleModal} color="primary" > Close modal</Button>
+
+      </Modal>
+    </div>
+  );
+}

@@ -1,8 +1,9 @@
-.car{
-    width: 80%;
+#boton a :hover{
+    text-decoration: none;
 
 }
 
-#card{
-    font-family:  'Shippori Mincho' ;
+#boton a {
+    color: white;
+    transition: color .2s;
 }

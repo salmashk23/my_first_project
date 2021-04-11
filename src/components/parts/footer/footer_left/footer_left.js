@@ -13,14 +13,15 @@ class FooterLeft extends React.Component {
                     <h4 id="subtitle"> for a healthier life </h4>
                     <p id="icon">
                     {
-                        IconItems.map((item, index) => {
+                        IconItems.map((item => {
                             return(
-                                <li key={index}>
+                                <li>
                                     <a href={item.url}><i className={item.cName}></i>
                                     </a>
                                 </li>
-                                )
-                            }
+                                    )
+                                }
+                            )
                         )
                     }
                      </p>

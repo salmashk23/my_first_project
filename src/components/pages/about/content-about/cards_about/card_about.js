@@ -9,12 +9,10 @@ class CardAbout extends React.Component{
         return(
             < >
                 <div className="card-deck car">
-
-                        {
-                            CardItems.map((item, index) => {
+                        {CardItems.map((item => {
                                 return(
                                         <Card className="my-4 p-3 ">
-                                            <CardImg  src={item.image}alt="Card image cap"></CardImg>
+                                            <CardImg  src={item.image} alt="Card image cap"></CardImg>
                                             <CardBody>
                                                  <CardTitle tag="h3">{item.title}</CardTitle>
                                                  <CardText>
@@ -25,7 +23,8 @@ class CardAbout extends React.Component{
                                     )
                                 }
                             )
-                        }
+                        )
+                    }
                 </div>
             </>
                 );

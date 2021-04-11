@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./components/general/img/health.jpg");
+  background: url("./components/general/img/healthy33.jpg") center ;
+  background-size: contain;
+
 }
 
 code {

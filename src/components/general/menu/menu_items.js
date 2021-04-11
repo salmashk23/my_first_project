@@ -11,17 +11,17 @@ const MenuItems = [
     },
     {
         title: 'DIET PROGRAMS',
-        url: '#',
+        url: '/diet_programs',
         cName: 'nav-links'
     },
     {
         title: 'FITNESS PROGRAMS',
-        url: '#',
+        url: '/fitness_programs',
         cName: 'nav-links'
     },
     {
         title: 'ARTICALES',
-        url: '#',
+        url: '/articales',
         cName: 'nav-links'
     },
     {
@@ -31,7 +31,7 @@ const MenuItems = [
     },
     {
         title: 'REGISTER / LOGIN',
-        url: '#',
+        url: '/login_page',
         cName: 'nav-links'
     }
 ]
