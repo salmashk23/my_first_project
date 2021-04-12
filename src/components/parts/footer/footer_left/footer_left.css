@@ -1,5 +1,5 @@
 #subtitle{
-    color: PaleTurquoise;
+    color: #FFB64C ;
     font-family: 'Dancing Script';
     font-size: 25px;
 
@@ -18,13 +18,13 @@
   }
 
   #icon a  {
-      color:PaleTurquoise;
+      color:white;
 
 
     }
 
   #icon a :hover {
-      color:white;
+      color:#FFB64C ;
 
 
     }

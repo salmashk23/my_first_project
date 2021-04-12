@@ -10,7 +10,7 @@ class ListItem extends React.Component{
     render(){
         return(
                 <li className="nav-item" >
-                    <a className="nav-link" activeClassName="active"  href={this.props.item.url}>
+                    <a className={this.props.item.cName} activeClassName="active"  href={this.props.item.url}>
                         {this.props.item.title}
                     </a>
                 </li>

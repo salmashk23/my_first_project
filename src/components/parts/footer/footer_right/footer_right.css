@@ -3,5 +3,10 @@
 }
 #contact a{
     text-decoration: none;
-    color: MintCream;
+    color: #FFB64C;
+}
+
+
+#contact a:hover{
+    color:#4180CB;
 }

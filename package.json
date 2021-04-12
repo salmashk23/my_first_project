@@ -10,10 +10,18 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-modal": "^3.12.1",
+    "react-multi-carousel": "^2.6.2",
     "react-native": "^0.64.0",
+    "react-player": "^2.9.0",
     "react-rating": "^2.0.5",
-    "react-scripts": "4.0.3",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
     "react-star-rating": "^1.4.2",
+    "react-star-ratings": "^2.3.0",
+    "reactstrap": "^8.9.0",
     "sass": "^1.32.8",
     "swiper": "^6.5.6",
     "web-vitals": "^1.1.1"
@@ -41,5 +49,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }

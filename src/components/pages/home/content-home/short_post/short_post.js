@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardBody, CardImg, CardTitle, CardText, Button, Col, Row} from "reactstrap";
 import TipPost from "./tip_post.js";
-import BmiCard from "./bmi_card.js";
+import BmiCard from "./bmi_card/bmi_card.js";
 import ArticalePost from "./articale_post.js";
 import  "./short_post.css";
 

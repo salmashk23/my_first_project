@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactPlayer  from 'react-player';
 import {Container, Card, CardImg, CardTitle, CardBody, CardText ,Button , Col, Row} from 'reactstrap';
-import NewCard from "./new.js";
-import BestCard from "./best_articale.js"
+import NewCard from "./new_articales/new.js";
+import BestCard from "./best_articales/best_articale.js";
 
 
 class ArticaleContent extends React.Component{

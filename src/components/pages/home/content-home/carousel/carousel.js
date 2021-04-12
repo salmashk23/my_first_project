@@ -14,7 +14,7 @@ class DemoCarousel extends React.Component{
                      Some of the people who "Healthy Weight"
                      changed their lives and there are many more <br/>
                      If you want to make your life healthier then
-                    <a href="#" class="text-info"> Join us </a>
+                    <a href="/register_page" class="text-warning"> Join us </a>
                 </p>
             </h3>
             <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} showThumbs={false}>

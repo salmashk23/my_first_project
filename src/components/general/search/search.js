@@ -9,7 +9,7 @@ const SearchBar = () => (
             placeholder="Search.."
             name="s"
         />
-    <button type="submit" className="text-dark"><i className="fa fa-search"> </i></button>
+    <button type="submit" className="text-light"><i className="fa fa-search"> </i></button>
     </form>
 );
 

@@ -23,7 +23,7 @@ class DietCard extends React.Component{
                 {DietItems.map((item => {
                     return(
                         <div className="card-deck">
-                            <Card className="card text-center" id="cardCaro" >
+                            <Card className="cardd text-center" id="cardCaro" >
                                 <CardImg  src={item.image} alt="Card image cap"></CardImg>
                                 <CardBody>
                                     <CardTitle className="text-dark mb-3" tag="h3">{item.title}</CardTitle>

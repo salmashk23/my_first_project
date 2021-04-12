@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Card, Button, CardImg, CardBody, CardTitle, CardText, Row, Col , Container, CardDeck } from 'reactstrap';
+import {  Row, Col , Container } from 'reactstrap';
 import "./text_about.css"
 
 class TextAbout extends React.Component{
     render(){
         return (
-                <div className="container content mt-5 mb-3 ">
+                <Container className="content mt-5 mb-3 ">
                     <Row>
                         <Col sm="6">
                             <p className="font-weight-bolder text-left text-dark h2"> Why Is a Healthy Weight Important? </p>
@@ -21,8 +21,8 @@ class TextAbout extends React.Component{
                             </p>
                         </Col>
                         <Col sm="6">
-                            <p className="font-weight-bolder h2 text-left text-dark"> Who Is The "Healthy Weight" For? </p>
-                            <p id="text" className="p-4 m-4 text-body text-left"> "Healthy Weight" was developed to help all people everywhere lead
+                            <p className="font-weight-bolder h2 text-left text-dark mb-5"> Who Is The "Healthy Weight" For? </p>
+                            <p id="text" className="p-4 m-4 text-body text-left pt-5"> "Healthy Weight" was developed to help all people everywhere lead
                                 a healthier life by changing behavior, achieving and maintaining
                                 a healthy weight, no matter what your weight,
                                 but what matters is how much you are willing to achieve and
@@ -30,7 +30,7 @@ class TextAbout extends React.Component{
                             </p>
                         </Col>
                     </Row>
-                </div>
+                </Container>
             );
         }
     }

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Button, Input, FormGroup , Form, Label, Col, Row } from 'reactstrap';
-import QuestOption from "./option_register/quest_option.js";
-import BodyOption from "./option_register/body_option.js";
+import QuestOption from "./option_register/quest_option/quest_option.js";
+import BodyOption from "./option_register/body_option/body_option.js";
 import RegisterItems from "./register_items.js";
-import  "./register.css";
+import  "../login_register.css";
 
  export default class Register extends Component {
     render() {
